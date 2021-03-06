@@ -9,7 +9,6 @@ public class AdventureGame : MonoBehaviour
     [SerializeField] Text textComponent;
     [SerializeField] State startingText;
     
-
     State state;
     // Start is called before the first frame update
     void Start()
@@ -27,13 +26,12 @@ public class AdventureGame : MonoBehaviour
     private void ManageStates()
     {
         var nextState = state.GetNextState();
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        for(int index = 0; index < nextState.Length; index++)
         {
-            state = nextState[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextState[1];
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                state = nextState[index];
+            }
         }
         textComponent.text = state.GetStateStory();
     }

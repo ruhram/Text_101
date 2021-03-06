@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801c0c920372afb40a9bb5fdb1357e22, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: Haloha muthafucka
+  nextStates:
+  - {fileID: 11400000, guid: 589ff6b0d2bd0e344b78cd218353faff, type: 2}
+  - {fileID: 11400000, guid: 969f1a3757a5a3145816328d7886c103, type: 2}
