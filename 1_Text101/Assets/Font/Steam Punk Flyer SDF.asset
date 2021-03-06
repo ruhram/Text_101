@@ -107,12 +107,12 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.28
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -156,9 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Steam Punk Flyer SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 1695003483
   material: {fileID: -8189877515691456650}
-  materialHashCode: 0
+  materialHashCode: 1351470491
   m_Version: 1.1.0
   m_SourceFontFileGUID: 63c7afd641849374c92289a8db5ead6f
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 63c7afd641849374c92289a8db5ead6f,
